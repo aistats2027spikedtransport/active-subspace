@@ -20,11 +20,11 @@ The repo is structured as:
 
 The original data is too large to ge held in the GitHub repo. 
 
-D=22050
+-   D=22050
 `train_cite_inputs.h5` can be found in the following link:
 https://www.kaggle.com/competitions/open-problems-multimodal/data?select=train_cite_inputs.h5. Use `Data/convert_to_csv` to convert the h5 file to a csv.
 
-D=100
+-   D=100
 The following GitHub repo has `Data/citeseq.csv`: https://github.com/amartya21/Wasserstein-Trajectory-Inference/tree/main/Data
 
 ## Virtual Environment
