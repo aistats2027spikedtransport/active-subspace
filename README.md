@@ -9,7 +9,6 @@ Optimal transport characterizes high-dimensional distributions by learning maps 
 The repo is structured as:
 
 -   `Code/function` contains the functions needed for the algorithm.
--   `Code/load_data` is used to generate the csv for the data with D=22050 dimensions.
 -   `Code/synthetic_data` runs the algorithm on synthetic data.
 -   `Code/d_100_pipeline` and `Code/d_22050_pipeline` runs the algorithm with both sets of data.
 -   `Code/bias_variance_tradeoff`, `Code/convergence`, and `Code/PCA` contains the code for the other plots.
@@ -19,8 +18,14 @@ The repo is structured as:
 
 ## Data
 
-The original data is too large to ge held in the GitHub repo. `train_cite_inputs.h5` can be found in the following link:
+The original data is too large to ge held in the GitHub repo. 
+
+D=22050
+`train_cite_inputs.h5` can be found in the following link:
 https://www.kaggle.com/competitions/open-problems-multimodal/data?select=train_cite_inputs.h5. Use `Data/convert_to_csv` to convert the h5 file to a csv.
+
+D=100
+The following GitHub repo has `Data/citeseq.csv`: https://github.com/amartya21/Wasserstein-Trajectory-Inference/tree/main/Data
 
 ## Virtual Environment
 
